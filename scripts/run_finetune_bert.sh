@@ -1,7 +1,7 @@
 USER=${1:-"phuongnm"}
-MODEL_NAME=${2:-"../settings/phobert-t3042/models/"}  # vinai/phobert-base
+MODEL_NAME=${2:-"../saved_model"}  # vinai/phobert-base
 ROOT_DIR=${3:-"../"}  
-DATA_DIR=${4:-"data/zalo-tfidf30/"}  
+DATA_DIR=${4:-"/kaggle/input/legal-text-retrieval/zac2021-ltr-data"}  
 SETTING_NAME=${5:-"phobert-t30"}  
 NUM_EPOCH=${6:-5}  
 LR=${7:-1e-5}  
